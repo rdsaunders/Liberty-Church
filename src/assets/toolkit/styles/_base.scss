@@ -95,7 +95,7 @@ color: #08c; }
 .sticky-header {
   position: relative;
   top: 0;
-  z-index: 100;
+	@include z-index(sticky-header);
 }
 
 @include medium {
