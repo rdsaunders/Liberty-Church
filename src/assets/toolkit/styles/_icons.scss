@@ -1,0 +1,42 @@
+.icon {
+display: inline-block;
+vertical-align: middle;
+background-repeat: no-repeat;
+background-size: contain;
+width: 1em;
+height: 1em;
+//background-color: red;
+}
+// 24px
+.icon--medium {
+width: 1.5em;
+height: 1.5em;
+}
+// 32px
+.icon--large {
+width: 2em;
+height: 2em;
+}
+
+// 48px
+.icon--xlarge {
+width: 3em;
+height: 3em;
+}
+
+// 64px
+.icon--xxlarge {
+width: 4em;
+height: 4em;
+}
+
+// Social Media
+.icon-facebook {background-image: url('../images/facebook.svg');}
+.icon-twitter {background-image: url('../images/twitter.svg'); background-position-y: 2px;}
+
+// Brew Types
+.icon-syphon {background-image: url('../images/syphon.svg');}
+.icon-aeropress {background-image: url('../images/aeropress.svg');}
+.icon-espresso {background-image: url('../images/espresso.svg');}
+.icon-v60 {background-image: url('../images/v60.svg');}
+.icon-chemex {background-image: url('../images/chemex.svg');}

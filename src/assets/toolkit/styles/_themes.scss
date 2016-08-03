@@ -1,0 +1,51 @@
+.theme-dark {
+background-color: black;
+color: white;
+
+  .btn {
+    background-color: white;
+    color: black;
+  }
+}
+
+.theme-kids {
+background-color: $kidsblue;
+color: white;
+
+  .btn {
+    background-color: white;
+    color: $kidsblue;
+  }
+}
+
+.theme-marriage {
+background-color: $marriagepurple;
+color: white;
+
+  .btn {
+    background-color: white;
+    color: $marriagepurple;
+  }
+}
+
+.theme-women {
+background-color: $couragouswomen;
+color: white;
+
+  .btn {
+    background-color: white;
+    color: $couragouswomen;
+  }
+}
+
+
+.theme-light {
+background-color: #eee;
+color: black;
+border-bottom: 1px solid #ccc;
+
+  .btn {
+  background-color: black;
+  color: white;
+  }
+}

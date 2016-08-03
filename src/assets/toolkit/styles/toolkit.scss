@@ -1,0 +1,24 @@
+@import "config";
+@import "normalize";
+@import "breakpoints";
+@import "z-index";
+@import "print";
+@import "base";
+@import "blocks";
+@import "buttons";
+@import "collapsible";
+@import "topbar";
+@import "header";
+@import "navigation";
+@import "themes";
+
+.footer {
+  padding: 2rem;
+  background: #1f2e34;
+  color: #fff;
+}
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
