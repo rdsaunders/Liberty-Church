@@ -52,7 +52,8 @@ transform: translateX(0);
 
 
 .drawer__nav {
-background-color: #fff;
+@include z-index(drawer);
+background-color: $white;
 border-left: 1px solid #ccc;
 bottom: 0;
 right: 0;
@@ -62,7 +63,6 @@ padding: 40px 15px 0;
 top: 0;
 transition: transform ease-in-out 0.25s;
 transform: translateX(100%);
-@include z-index(drawer);
 }
 
 @include medium {

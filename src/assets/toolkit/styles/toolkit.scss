@@ -1,8 +1,11 @@
 @import "config";
+
 @import "normalize";
 @import "breakpoints";
 @import "z-index";
 @import "print";
+
+@import "elements";
 @import "base";
 @import "blocks";
 @import "buttons";
@@ -10,15 +13,15 @@
 @import "topbar";
 @import "header";
 @import "navigation";
+@import "footer";
 @import "themes";
+@import "article";
 
-.footer {
-  padding: 2rem;
-  background: #1f2e34;
-  color: #fff;
-}
-.footer-content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 0 30px;
+display: block;
+overflow: visible;
 }

@@ -18,14 +18,19 @@ line-height: 1.5;
 color: #555;
 }
 
-
 @include medium {
 	body {
-	padding-top: 56px;
+	padding-top: 93px;
 	}
 
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 font-family: "proxima-nova",sans-serif;
 line-height: 1.4;
 margin: 0;
@@ -69,9 +74,10 @@ video {
 vertical-align: middle;
 }
 
-img, video {
-	max-width: 100%;
-	height: auto;
+img,
+video {
+max-width: 100%;
+height: auto;
 }
 
 fieldset {
@@ -91,22 +97,3 @@ color: #2a9bc1; }
 
 a:hover {
 color: #08c; }
-
-.sticky-header {
-  position: relative;
-  top: 0;
-	@include z-index(sticky-header);
-}
-
-@include medium {
-  .sticky-header {
-    position: fixed;
-    left: 0;
-    right: 0;
-
-		.top-bar {
-			border-bottom: 1px solid #f2f2f2;
-		}
-  }
-
-}

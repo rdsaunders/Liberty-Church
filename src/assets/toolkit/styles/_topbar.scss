@@ -4,7 +4,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 width: 100%;
-background: #fff;
+background: $white;
 position: relative;
 
   > a {
@@ -12,13 +12,21 @@ position: relative;
   }
 
   .top-bar__logo {
-  padding-left: 1rem;
+  padding: 1rem 0 1rem 1rem;
   display: flex;
   flex: 1;
   order: 1;
   text-decoration: none;
-  }
+  opacity: 1;
+  transition: opacity 0.3s ease;
 
+    img {height: 60px;}
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+  }
 
   .top-bar__nav {
   order: 2;
@@ -26,9 +34,10 @@ position: relative;
 
   .top-bar__nav-toggle {
   order: 3;
-  padding: 1rem;
-  background: #2a9bc1;
-  color: #fff;
+  padding: 0.5rem 1rem;
+  border: 1px solid #2a9bc1;
+  margin-right: 1rem;
+  border-radius: 6px;
   }
 
 }

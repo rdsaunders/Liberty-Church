@@ -1,0 +1,23 @@
+.site-footer {
+text-align: center;
+background: $montana;
+color: #f2f2f2;
+padding: 2rem;
+}
+
+.site-footer__content {
+max-width: 800px;
+margin: 0 auto;
+}
+.site-footer__logo {
+height: 100px;
+margin: 2em 0;
+}
+
+.footer {
+padding: 2rem;
+background: $codgrey;
+color: #8C8989;
+border-top: 1px solid #4b4c4d;
+font-size: 0.75rem;
+}
