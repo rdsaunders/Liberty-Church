@@ -4,7 +4,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 width: 100%;
-background: $white;
+background: $top-bar-bg-color;
 position: relative;
 
   > a {
@@ -26,6 +26,10 @@ position: relative;
       opacity: 0.6;
     }
 
+    .top-bar-nav-open {
+  fill: red;
+}
+
   }
 
   .top-bar__nav {
@@ -35,7 +39,7 @@ position: relative;
   .top-bar__nav-toggle {
   order: 3;
   padding: 0.5rem 1rem;
-  border: 1px solid #2a9bc1;
+  border: 1px solid $top-bar-toggle-border-color;
   margin-right: 1rem;
   border-radius: 6px;
   }

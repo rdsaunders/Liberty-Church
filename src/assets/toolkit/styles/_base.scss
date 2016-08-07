@@ -59,7 +59,7 @@ hr {
 display: block;
 height: 1px;
 border: 0;
-border-top: 1px solid #ccc;
+border-top: 1px solid $bordercolor;
 margin: 1em 0;
 padding: 0;
 }
@@ -93,7 +93,9 @@ resize: vertical;
 
 
 a {
-color: #2a9bc1; }
+color: $linkcolour;
+transition: color 0.3s ease;
+}
 
 a:hover {
-color: #08c; }
+color: lighten($linkcolour, 5%); }

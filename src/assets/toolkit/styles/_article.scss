@@ -4,7 +4,7 @@
   hr {
     margin: 0 auto 16px;
     width: 100px;
-    border-color: #eee;
+    border-color: $bordercolor;
   }
 }
 
@@ -58,6 +58,6 @@ margin-bottom: 2em;
   padding: 1em 0;
   max-width: 800px;
   margin: 0 auto;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid $bordercolor;
+  border-bottom: 1px solid $bordercolor;
 }

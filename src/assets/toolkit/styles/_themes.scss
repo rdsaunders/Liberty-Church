@@ -1,51 +1,19 @@
 .theme-dark {
 background-color: $codgrey;
-color: white;
+color: $whitesmoke;
 
   .btn {
-    background-color: white;
-    color: $codgrey;
-  }
-}
+  background-color: $shiraz;
+  color: $whitesmoke;
 
-.theme-kids {
-background-color: $kidsblue;
-color: white;
+    &:hover {background-color: lighten($shiraz, 10%)}
 
-  .btn {
-    background-color: white;
-    color: $kidsblue;
-  }
-}
-
-.theme-marriage {
-background-color: $marriagepurple;
-color: white;
-
-  .btn {
-    background-color: white;
-    color: $marriagepurple;
-  }
-}
-
-.theme-women {
-background-color: $couragouswomen;
-color: white;
-
-  .btn {
-    background-color: white;
-    color: $couragouswomen;
   }
 }
 
 
 .theme-light {
 background-color: #f7f7f7;
-color: black;
-border-bottom: 1px solid #ccc;
-
-  .btn {
-  background-color: black;
-  color: white;
-  }
+color: $black;
+border-bottom: 1px solid $bordercolor;
 }

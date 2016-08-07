@@ -54,7 +54,7 @@ transform: translateX(0);
 .drawer__nav {
 @include z-index(drawer);
 background-color: $white;
-border-left: 1px solid #ccc;
+border-left: 1px solid $bordercolor;
 bottom: 0;
 right: 0;
 position: fixed;
@@ -84,13 +84,13 @@ transform: translateX(100%);
 }
 
 .drawer__link {
-border-bottom: 1px solid #DBE3E7;
+border-bottom: 1px solid $bordercolor;
 display: block;
 padding: 1em 0;
 }
 
 .drawer__close {
-border-bottom: 1px solid #DBE3E7;
+border-bottom: 1px solid $bordercolor;
 padding: 7px 0 28px;
 }
 

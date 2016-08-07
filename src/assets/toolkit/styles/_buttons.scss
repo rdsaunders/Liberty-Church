@@ -1,16 +1,16 @@
 .btn {
 padding: 0.75em 1.5em;
-border: 1px solid #ccc;
-border-radius: 3px;
-background: $black;
-color: $white;
+border-radius: 6px;
+background: $shipcove;
+color: $whitesmoke;
 text-decoration: none;
 text-transform: uppercase;
 display: inline-block;
 font-weight: bold;
+transition: background-color 0.3s ease;
 
   &:hover {
-    background: lighten($black, 20%);
+    background: lighten($shipcove, 20%);
   }
 
 }
@@ -18,11 +18,13 @@ font-weight: bold;
 
 .btn--outline {
   background: transparent;
-  color: $black;
+  border: 2px solid $shipcove;
+  color: $shipcove;
+
 
   &:hover {
     background: transparent;
-    border-color: lighten(#cccccc, 10%);
+    border-color: lighten($shipcove, 10%);
   }
 
 
