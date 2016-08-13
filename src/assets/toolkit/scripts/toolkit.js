@@ -1,3 +1,4 @@
+require("script!./modernizr.js");
 require("script!./collapsible.js");
 
 $(document).ready(function(){
@@ -76,3 +77,10 @@ $(document).ready(function(){
   }
 
 })( window, document );
+
+
+//var vHeight = $(window).height(),
+//    vWidth = $(window).width(),
+//    cover = $('.content-block--fixed-image');
+
+//cover.css({"height":vHeight,"width":vWidth});

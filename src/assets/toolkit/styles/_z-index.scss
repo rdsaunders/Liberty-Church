@@ -3,6 +3,8 @@ $z-index: (
   sticky-header      : 2,
   content-block      : 1,
   topbar             : 1,
+  content-overlay    : 0
+
 );
 
 @function z-index($key) {

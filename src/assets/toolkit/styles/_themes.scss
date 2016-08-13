@@ -87,22 +87,51 @@ transition: opacity 0.3s ease;
   &:hover {opacity: 0.8;}
 
   a {
-    padding: 2rem;
+  padding: 2rem;
   }
 
 }
+
 .theme-instagram {
-background-color: #e1306c;
+background-color: $instagram;
 }
 
 .theme-twitter {
-background-color: #1da1f2;
+background-color: $twitter;
 }
 
 .theme-facebook {
-background-color: #3b5998;
+background-color: $facebook;
 }
 
 .theme-vimeo {
-background-color: #1ab7ea;
+background-color: $vimeo;
+}
+
+
+.theme-home-header {
+background-color: $codgrey;
+color: $whitesmoke;
+
+  .btn {
+  background-color: $shiraz;
+  color: $whitesmoke;
+
+    &:hover {background-color: lighten($shiraz, 10%);}
+
+  }
+
+  .home__logo {
+  position: relative;
+  top: -3rem;
+  left: -1.5rem;
+  }
+
+  .home__time {
+    margin: 0;
+  }
+  .home__location {
+    margin-bottom: 1.5rem;
+  }
+
 }
