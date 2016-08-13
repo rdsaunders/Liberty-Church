@@ -12,7 +12,7 @@ position: relative;
   }
 
   .top-bar__logo {
-  padding: 1rem 0 1rem 1rem;
+  padding: 0.5rem 0 0.5rem 1rem;
   display: flex;
   flex: 1;
   order: 1;
@@ -25,10 +25,6 @@ position: relative;
     &:hover {
       opacity: 0.6;
     }
-
-    .top-bar-nav-open {
-  fill: red;
-}
 
   }
 

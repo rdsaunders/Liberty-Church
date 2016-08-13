@@ -9,24 +9,42 @@ $large: 1024px;
 $xlarge: 1200px;
 $xxlarge: 1440px;
 
+
+// Helpers
+$col-full:              100%;
+$col-half:              100% / 2;
+
+// Grid widths
+// ----------------------------------------------
+// Feel free to change this to how many columns
+// you want this grid system to have.
+$col-start:             1;
+$col-end:               12;
+
+// Frame width (grid wrapper)
+$row-width:       100%;
+
+
+
 $white: #fff;
 $black: #000;
 $montana: #363839;
 $codgrey: #282a2b;
 
-$kidsblue: rgb(0,	190,	227);
-$marriagepurple: rgb(93, 16, 192);
-$couragouswomen: rgb(157,	115,	109);
+$kidsblue: rgb(51, 196, 231);
+$kidsorange: rgb(239, 154, 53);
+$marriagepurple: rgb(181, 137, 253);
+$couragouswomen: rgb(157, 115, 109);
 
 
 // Liberty Rich
 $shiraz: rgb(140, 42, 60); //RED
 $blackrock: rgb(49, 54, 64);
-$shipcove: rgb(114, 146, 173);
+$shipcove: #4f7b9b; //rgb(114, 146, 173);
 $silver: rgb(194, 194, 194);
 $whitesmoke: rgb(242, 242, 242);
 
-
+$textcolor: #555;
 $linkcolour: $shipcove;
 $bordercolor: #ccc;
 

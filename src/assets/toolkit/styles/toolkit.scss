@@ -7,6 +7,7 @@
 
 @import "elements";
 @import "base";
+@import "grid";
 @import "blocks";
 @import "buttons";
 @import "collapsible";
@@ -16,7 +17,7 @@
 @import "footer";
 @import "themes";
 @import "article";
-
+@import "icons";
 
 .container {
 max-width: 800px;

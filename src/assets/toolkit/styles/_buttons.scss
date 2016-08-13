@@ -1,31 +1,16 @@
 .btn {
 padding: 0.75em 1.5em;
 border-radius: 6px;
-background: $shipcove;
-color: $whitesmoke;
 text-decoration: none;
 text-transform: uppercase;
 display: inline-block;
 font-weight: bold;
 transition: background-color 0.3s ease;
-
-  &:hover {
-    background: lighten($shipcove, 20%);
-  }
-
 }
 
 
 .btn--outline {
-  background: transparent;
-  border: 2px solid $shipcove;
-  color: $shipcove;
-
-
-  &:hover {
-    background: transparent;
-    border-color: lighten($shipcove, 10%);
-  }
-
-
+border-width: 2px;
+border-style: solid;
+transition: border-color 0.3s ease;
 }

@@ -6,8 +6,24 @@ color: $whitesmoke;
   background-color: $shiraz;
   color: $whitesmoke;
 
-    &:hover {background-color: lighten($shiraz, 10%)}
+    &:hover {background-color: lighten($shiraz, 10%);}
 
+  }
+
+  &.collapsible {
+  border-left-color: lighten($shipcove, 10%);
+  border-right-color: lighten($shipcove, 10%);
+  border-top-color: lighten($shipcove, 10%);
+  }
+
+  .collapsible-header {
+  background-color: $shipcove;
+  border-bottom-color: lighten($shipcove, 10%);
+  }
+
+  .collapsible-body {
+  background-color: $white;
+  color: $textcolor;
   }
 }
 
@@ -16,4 +32,77 @@ color: $whitesmoke;
 background-color: #f7f7f7;
 color: $black;
 border-bottom: 1px solid $bordercolor;
+
+  .btn {
+  background-color: $shipcove;
+  color: $whitesmoke;
+
+    &:hover {background-color: darken($shipcove, 10%)}
+
+  }
+
+}
+
+.theme-marriage {
+background-color: lighten($marriagepurple, 20%);
+border-bottom: 1px solid $bordercolor;
+
+  .btn {
+  background-color: $marriagepurple;
+  color: $whitesmoke;
+
+    &:hover {  background-color: darken($marriagepurple, 10%);}
+
+  }
+
+  .btn--outline {
+  background: transparent;
+  border-color: $marriagepurple;
+  color: $marriagepurple;
+
+    &:hover {
+    background: transparent;
+    border-color: darken($marriagepurple, 10%);
+    color: darken($marriagepurple, 10%);
+    }
+
+  }
+
+}
+
+
+.theme-kids {
+background-color: #FCEE21;
+color: $black;
+}
+
+
+.theme-instagram,
+.theme-twitter,
+.theme-vimeo,
+.theme-facebook {
+padding: 0;
+transition: opacity 0.3s ease;
+
+  &:hover {opacity: 0.8;}
+
+  a {
+    padding: 2rem;
+  }
+
+}
+.theme-instagram {
+background-color: #e1306c;
+}
+
+.theme-twitter {
+background-color: #1da1f2;
+}
+
+.theme-facebook {
+background-color: #3b5998;
+}
+
+.theme-vimeo {
+background-color: #1ab7ea;
 }

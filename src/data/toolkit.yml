@@ -3,6 +3,8 @@ colors:
     Dark: "rgb(30, 30, 30)"
     Light: "rgb(242, 242, 242)"
   secondary:
-    Red: "rgb(201, 55, 6)"
-    Yellow: "rgb(252, 207, 80)"
-    Blue: "rgb(39, 102, 143)"
+    Shiraz: "rgb(140, 42, 60)"
+    Blackrock: "rgb(49, 54, 64)"
+    Shipcove: "rgb(114, 146, 173)"
+    Silver: "rgb(194, 194, 194)"
+    Whitesmoke: "rgb(242, 242, 242)"
