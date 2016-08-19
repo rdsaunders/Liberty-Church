@@ -1,5 +1,6 @@
 @import "config";
 
+@import "fonts";
 @import "normalize";
 @import "breakpoints";
 @import "z-index";
@@ -9,6 +10,7 @@
 @import "base";
 @import "grid";
 @import "cards";
+@import "profiles";
 @import "blocks";
 @import "buttons";
 @import "collapsible";
@@ -21,9 +23,13 @@
 @import "icons";
 
 .container {
-max-width: 800px;
-margin: 0 auto;
-padding: 0 30px;
+
+margin-left: auto;
+margin-right: auto;
 display: block;
 overflow: visible;
+
+@include medium {
+  max-width: 40em;
+}
 }

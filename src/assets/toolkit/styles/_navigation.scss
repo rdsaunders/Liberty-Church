@@ -121,3 +121,24 @@ left: 1rem;
   }
 
 }
+
+.subnav {}
+.subnav__inner {}
+.subnav__link {
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 6px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $silver;
+    color: $white;
+  }
+
+  &.is-active {
+    background-color: $shipcove;
+    color: $white;
+  }
+}
