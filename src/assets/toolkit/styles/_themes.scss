@@ -72,11 +72,125 @@ border-bottom: 1px solid $bordercolor;
 
 
 .theme-kids {
-background-color: #FCEE21;
-color: $black;
+background-color: $kidsblue;
+color: $white;
+
+  .btn {
+  background-color: $kidsorange;
+  color: $white;
+
+    &:hover {  background-color: $white; color: $kidsblue;}
+
+  }
+
+  .btn--outline {
+  background: transparent;
+  border-color: $white;
+  color: $white;
+
+    &:hover {
+    background: $kidsorange;
+    border-color: $kidsorange;
+    color: $white;
+    }
+
+  }
+
+}
+
+.theme-youth {
+  background: $black;
+  color: $white;
+
+
+  .btn {
+  background-color: $youthgreen;
+  color: $black;
+
+    &:hover {  background-color: darken($youthgreen, 10);}
+
+  }
+
+  .btn--outline {
+  background: transparent;
+  border-color: $youthgreen;
+  color: $youthgreen;
+
+    &:hover {
+      background: transparent;
+    border-color: darken($youthgreen, 10);
+    color: darken($youthgreen, 10);
+    }
+
+  }
+}
+
+// Foundation Course
+.theme-foundation {
+background-color: $foundationblue;
+color: $white;
+
+  .content-block__heading,
+  .content-block__subheading {
+  color: $foundationgreen;
+  margin-bottom: 0;
+  }
+
+  .content-block__subheading {
+  font-size: 1.5rem;
+  }
+
+  .btn {
+  background-color: $foundationgreen;
+  color: $foundationblue;
+
+    &:hover {  background-color: darken($foundationgreen, 5);}
+
+  }
+
+  .btn--outline {
+  background: transparent;
+  border-color: $foundationgreen;
+  color: $foundationgreen;
+
+    &:hover {
+    background: transparent;
+    border-color: darken($foundationgreen, 5);
+    color: darken($foundationgreen, 5);
+    }
+
+  }
+}
+
+.theme-lambs {
+background-color: $lambs;
+color: $white;
+
+
+    .btn {
+    background-color: $lambsmint;
+    color: $white;
+
+      &:hover {  background-color: darken($lambsmint, 10);}
+
+    }
+
+    .btn--outline {
+    background: transparent;
+    border-color: $lambsmint;
+    color: $lambsmint;
+
+      &:hover {
+      background: transparent;
+      border-color: darken($lambsmint, 5);
+      color: darken($lambsmint, 5);
+      }
+
+    }
 }
 
 
+// Social Themes
 .theme-instagram,
 .theme-twitter,
 .theme-vimeo,
@@ -91,6 +205,8 @@ transition: opacity 0.3s ease;
   }
 
 }
+
+
 
 .theme-instagram {
 background-color: $instagram;
@@ -124,7 +240,7 @@ color: $whitesmoke;
   .home__logo {
   position: relative;
   top: -3rem;
-  left: -1.5rem;
+  left: -0.5rem;
   }
 
   .home__time {
